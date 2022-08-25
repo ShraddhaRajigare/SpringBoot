@@ -13,7 +13,7 @@ public class RepoController {
         return "Shraddha's repository :)";
     }
 
-    @GetMapping
+    @GetMapping("/address")
     public String sayAddress(){
         return "Akurdi | Pune | Maharashtra | India | Asia | Earth.";
     }
