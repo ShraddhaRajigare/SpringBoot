@@ -17,4 +17,15 @@ public class RepoController {
     public String changeByKartik(){
         return "Hello, How are you ...? :)";
     }
+
+    @GetMapping("/address")
+    public String sayAddress(){
+        return "Akurdi | Pune | Maharashtra | India .";
+    }
+
+    @GetMapping("/jobprofile")
+    public String sayJobProfile(){
+        return " Java Developer.";
+    }
+
 }
