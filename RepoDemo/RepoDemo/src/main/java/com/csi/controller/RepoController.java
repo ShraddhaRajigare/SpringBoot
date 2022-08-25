@@ -18,4 +18,9 @@ public class RepoController {
         return "Akurdi | Pune | Maharashtra | India .";
     }
 
+    @GetMapping("/jobprofile")
+    public String sayJobProfile(){
+        return "Full Stack Java Developer.";
+    }
+
 }
