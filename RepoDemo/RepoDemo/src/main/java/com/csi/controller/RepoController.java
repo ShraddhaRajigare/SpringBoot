@@ -20,7 +20,7 @@ public class RepoController {
 
     @GetMapping("/jobprofile")
     public String sayJobProfile(){
-        return "Full Stack Java Developer.";
+        return " Java Developer.";
     }
 
 }
