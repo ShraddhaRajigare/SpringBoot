@@ -12,4 +12,10 @@ public class RepoController {
     public String sayHello(){
         return "Shraddha's repository :)";
     }
+
+    @GetMapping
+    public String sayAddress(){
+        return "Akurdi | Pune | Maharashtra | India | Asia.";
+    }
+
 }
