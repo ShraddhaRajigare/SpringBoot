@@ -12,4 +12,9 @@ public class RepoController {
     public String sayHello(){
         return "Shraddha's repository :)";
     }
+
+    @GetMapping("/kk")
+    public String changeByKartik(){
+        return "Hello, How are you ...? :)";
+    }
 }
